@@ -966,41 +966,6 @@ void ServeurTCPV2(short int* port){
 
 int main(int argc,char *argv[])
 {
-//     char* puissance4Table = malloc(sizeof(char)*42);
-//     for(int i = 0; i < 42 ; i++){
-//         puissance4Table[i] = '2';
-//     }
-//     
-//     for(int i = 0; i<5 ; i++){
-//         puissance4Table[i] = '1';
-//     }
-//     
-//     AffichageCleanTable(puissance4Table);
-//     int win = CheckWin(puissance4Table);
-//     printf("Win : '%d'\n", win);
-//     return 0;
-    /*
-    char* test = formationTLVMessageV2Type1("test");
-    printf("%s\n",test);*/
-//     char* test2 = formationTLVMessageV2Type2("test2", 1, "opposant");
-//     printf("\nTest 2 :\n%s\n",test2);
-//     char* test3 = formationTLVMessageV2Type3(puissance4Table, "state");
-//     printf("\nTest 3 :\n%s\n",test3);
-//     lectureTLVMessageFull(test3);
-//     char* test4 = formationTLVMessageV2Type4(4);
-//     printf("\nTest 4 :\n%s\n",test4);
-//     lectureTLVMessageFull(test4);
-//     char* test5 = formationTLVMessageV2Type5(3, 0);
-//     printf("\nTest 5 :\n%s\n",test5);
-//     lectureTLVMessageFull(test5);
-//     char* test6 = formationTLVMessage(6, NULL);
-//     printf("\nTest 6 :\n%s\n",test6);
-//     char* test7 = formationTLVMessage(7, NULL);
-//     printf("\nTest 7 :\n%s\n",test7);
-    
-//         char *state = creationState(0,0);
-//         printf("State '%s' '%d' Joueur '%d'\n", state,state[0], state[1]);
-//         return 0;
     //Mise en place de la capture du signal SIGINT
 	struct sigaction action;
 	action.sa_handler = recepctrlC;
